@@ -1,3 +1,18 @@
+# Set your password here
+correct_password = "6151456"
+
+# Ask the user to enter the password
+password = input("Enter the password: ")
+
+# Check if the entered password is correct
+if password == correct_password:
+    print("Access granted. Running the script...")
+    # Your original script code goes here
+    print("This is your original script.")
+    # More of your script code here...
+else:
+    print("Access denied. Exiting...")
+    exit()
 import os
 '''access_tokens = ['','']
 hatersnames = ['']
